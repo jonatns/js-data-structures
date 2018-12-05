@@ -1,4 +1,4 @@
-const createStack = require('../stack');
+const createStack = require('../src/stack');
 
 describe('Stack', () => {
   let stack;
