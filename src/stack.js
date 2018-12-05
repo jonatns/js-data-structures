@@ -3,6 +3,9 @@ module.exports = () => {
 
   return {
     push(item) {
+      if (!item) {
+        throw Error('item not provided');
+      }
       array.push(item);
     },
     pop() {

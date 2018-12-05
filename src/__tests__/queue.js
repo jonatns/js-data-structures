@@ -1,4 +1,4 @@
-const createQueue = require('../src/queue');
+const createQueue = require('../queue');
 
 describe('Queue', () => {
   let queue;
